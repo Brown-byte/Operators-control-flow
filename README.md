@@ -62,27 +62,4 @@ let y = 25;
 result = a | b; 
 console.log(result); //29
 
-3,  let Science = 'Physics, Chemistry, Biology, Technical Drawing'
-   let SocialScience = 'Accounting, Commerce, Marketing, Geography'
-   let GeneralSubs = 'English, Mathematics'
-   let Arts = 'Government, Economics, Literature, History'
-
-   let Dept = "Arts"
-
-
-if (Dept === "Science"){
-   console.log(" The subjects for Science are: " + Science + " " + GeneralSubs)
-}
-else if (Dept === "SocialScience"){
-    console.log("The subjects for Social Science are: " + SocialScience + " " + GeneralSubs)
-}
-
-else if (Dept === "Arts"){
-    console.log("The subjects for Arts are: " + Arts + " " + GeneralSubs)
-}
-else{
-    console.log(GeneralSubs)
-}
-//The subjects for Arts are: Government, Economics, Literature, History English, Mathematics
-
 4, Output is 1 , 8 , 15

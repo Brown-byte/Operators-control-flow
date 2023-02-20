@@ -1,3 +1,29 @@
+//Question 3
+
+let Science = 'Physics, Chemistry, Biology, Technical Drawing'
+let SocialScience = 'Accounting, Commerce, Marketing, Geography'
+let GeneralSubs = 'English, Mathematics'
+let Arts = 'Government, Economics, Literature, History'
+
+let Dept = "Arts"
+
+
+if (Dept === "Science"){
+console.log(" The subjects for Science are: " + Science + " " + GeneralSubs)
+}
+else if (Dept === "SocialScience"){
+ console.log("The subjects for Social Science are: " + SocialScience + " " + GeneralSubs)
+}
+
+else if (Dept === "Arts"){
+ console.log("The subjects for Arts are: " + Arts + " " + GeneralSubs)
+}
+else{
+ console.log(GeneralSubs)
+}
+
+//The subjects for Arts are: Government, Economics, Literature, History English, Mathematics
+
 
 //Question 5
 
@@ -21,3 +47,5 @@
 findNearestPowerOf2(12);
 findNearestPowerOf2(3);
 
+//The number 8 is the power of 2 nearest to 12
+//The number 2 is the power of 2 nearest to 3
